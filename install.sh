@@ -60,3 +60,8 @@ sudo tlp start
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 
+sudo snap install clion --classic
+sudo snap install intellij-idea-ultimate --classic
+sudo snap install pycharm-professional --classic
+sudo snap install datagrip --classic
+sudo snap install rider --classic
