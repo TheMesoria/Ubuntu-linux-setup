@@ -60,6 +60,7 @@ install google-chrome-stable
 install chrome-gnome-shell
 install curl
 install fonts-powerline
+install virtualbox
 
 cargo install bat
 
@@ -81,4 +82,5 @@ sudo snap install datagrip --classic
 sudo snap install rider --classic
 sudo snap install telegram-desktop --classic
 sudo snap install android-studio --classic
+sudo snap install gitkraken --classic
 
