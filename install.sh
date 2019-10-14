@@ -31,6 +31,8 @@ function install()
 	fi
 }
 
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add - 
+
 sudo apt update
 sudo apt upgrade -y
 sudo snap refresh
@@ -54,6 +56,9 @@ install default-jdk
 install python3
 install speedtest-cli
 install gnome-tweaks
+install google-chrome-stable
+install chrome-gnome-shell
+install curl
 
 cargo install bat
 
@@ -70,3 +75,5 @@ sudo snap install pycharm-professional --classic
 sudo snap install datagrip --classic
 sudo snap install rider --classic
 sudo snap install telegram-desktop --classic
+sudo snap install android-studio --classic
+
