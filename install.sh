@@ -50,6 +50,10 @@ install g++
 install cmake
 install tmux
 install clang-format
+install default-jdk
+install python3
+install speedtest-cli
+install gnome-tweaks
 
 cargo install bat
 
@@ -65,3 +69,4 @@ sudo snap install intellij-idea-ultimate --classic
 sudo snap install pycharm-professional --classic
 sudo snap install datagrip --classic
 sudo snap install rider --classic
+sudo snap install telegram-desktop --classic
