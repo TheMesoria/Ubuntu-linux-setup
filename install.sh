@@ -59,12 +59,17 @@ install gnome-tweaks
 install google-chrome-stable
 install chrome-gnome-shell
 install curl
+install fonts-powerline
 
 cargo install bat
 
 sudo apt autoremove -y
 
 sudo tlp start
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+sed -i '/\"robbyrussel\"/c\ZSH_THEME="agnoster"' ~/.zshrc
 
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
