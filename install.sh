@@ -47,8 +47,8 @@ install cargo
 install zsh
 install llvm
 install clang
-install gcc
-install g++
+install gcc-10
+install g++-10
 install cmake
 install tmux
 install clang-format
@@ -78,9 +78,6 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 sudo snap install clion --classic
 sudo snap install intellij-idea-ultimate --classic
 sudo snap install pycharm-professional --classic
-sudo snap install datagrip --classic
-sudo snap install rider --classic
 sudo snap install telegram-desktop --classic
-sudo snap install android-studio --classic
 sudo snap install gitkraken --classic
 
