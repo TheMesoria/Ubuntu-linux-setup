@@ -39,7 +39,7 @@ sudo snap refresh
 
 install neovim
 install git
-install subversion
+# install subversion
 install htop
 install powertop
 install tlp
